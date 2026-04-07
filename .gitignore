@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Conda local env folders if any
+.env
+
+# Packaging/build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.toc
+*.pkg
+*.pyz
+
+# Keep or ignore spec files:
+# If you want to keep your PyInstaller spec, leave this commented out.
+# *.spec
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+
+# Test/cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
