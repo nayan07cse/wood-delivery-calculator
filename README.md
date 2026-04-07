@@ -108,7 +108,7 @@ python wdc_client.py
 
 ## 👨‍💻 Author
 
-Nayan
+Nayan Nath
 
 ---
 
