@@ -9,6 +9,7 @@ A Python-based application for calculating wood delivery orders, consisting of:
 
 ## 📂 Project Structure
 
+```
 .
 ├── WDC-Client/        # Client application
 │   ├── wdc_client.py
@@ -24,6 +25,7 @@ A Python-based application for calculating wood delivery orders, consisting of:
 │
 ├── README.md
 └── .gitignore
+```
 
 ---
 
@@ -48,30 +50,40 @@ A Python-based application for calculating wood delivery orders, consisting of:
 
 ### Clone the repository
 
+```
 git clone https://github.com/nayan07cse/wood-delivery-calculator.git
 cd wood-delivery-calculator
+```
 
 ---
 
 ## 📦 Build the Service Package
 
+```
 cd WDC-Service
 python setup.py sdist
+```
 
 Output will be created in:
 
+```
 dist/wdc_service-1.0.tar.gz
+```
 
 ### Install the package
 
+```
 pip install dist/wdc_service-1.0.tar.gz
+```
 
 ---
 
 ## 🖥️ Build the Client Executable
 
+```
 cd WDC-Client
 pyinstaller wdc_client.py
+```
 
 ---
 
@@ -79,13 +91,17 @@ pyinstaller wdc_client.py
 
 ### Option 1: Run executable
 
+```
 cd dist
 ./wdc_client
+```
 
 ### Option 2: Run in development mode
 
+```
 cd WDC-Client
 python wdc_client.py
+```
 
 ---
 
